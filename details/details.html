@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="./details.css" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
     <title>FoodApp</title>
     <!-- Font Awesome -->
     <script
@@ -13,16 +19,36 @@
     ></script>
   </head>
   <body>
-    <!-- HEADER SECTION -->
     <header class="header">
-      <div class="header-logo">
-        <button class="arrow icon-properties">
-          <i class="arrow-icon fas fa-less-than"></i>
-        </button>
-        <button class="heart icon-properties">
-          <i class="heart-icon far fa-heart"></i>
-        </button>
+      <div class="header-container">
+        <div class="header-logo">
+          <button class="arrow icon-properties">
+            <i class="arrow-icon fas fa-less-than"></i>
+          </button>
+          <button class="heart icon-properties">
+            <i class="heart-icon far fa-heart"></i>
+          </button>
+        </div>
       </div>
     </header>
+
+    <main class="main">
+      <section class="menu-details">
+        <div class="container-menu">
+          <form id="search" action="#">
+            <span>
+              <input
+                class="plus"
+                type="search"
+                name="gsearch"
+                placeholder="Cookbox/ Menu ayam Spesial"
+              />
+              <button class="btn-plus">+</button>
+            </span>
+          </form>
+          <h1 class="txt-menu">Sup Makaroni Daging Ayam Kampung</h1>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
