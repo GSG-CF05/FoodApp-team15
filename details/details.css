@@ -1,0 +1,30 @@
+.header-logo {
+  height: 50vh;
+  background-image: url("./image/sup.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.icon-properties {
+  background-color: #fff;
+  border-radius: 50%;
+  border: 0;
+  height: 3rem;
+  width: 3rem;
+}
+
+.heart-icon {
+  color: orange;
+}
+
+.heart {
+  position: absolute;
+  right: 1.3rem;
+  top: 3rem;
+}
+.arrow {
+  font-size: 0.8rem;
+  position: absolute;
+  left: 1.3rem;
+  top: 3rem;
+}
