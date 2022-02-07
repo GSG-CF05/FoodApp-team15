@@ -1,9 +1,19 @@
-/* HEADER */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  height: 25rem;
+}
+
 .header-logo {
-  height: 50vh;
-  background-image: url("./image/sup.jpg");
+  height: 100%;
+  background: url("../image/sup.jpg");
   background-size: cover;
   position: relative;
+  z-index: -1;
 }
 
 .icon-properties {
@@ -24,8 +34,51 @@
   top: 3rem;
 }
 .arrow {
-  font-size: 0.8rem;
   position: absolute;
   left: 1.3rem;
   top: 3rem;
+}
+
+.container-menu {
+  display: flex;
+  flex-direction: column;
+  width: 21rem;
+  height: 17rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: -2.5rem auto 0 1.5rem;
+  background-color: #e5e5e5;
+  z-index: 2;
+}
+
+.plus {
+  width: 19rem;
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  padding-left: 1.3rem;
+  position: absolute;
+  background-color: #f2f3f4;
+}
+
+.btn-plus {
+  width: 1.3rem;
+  height: 1.3rem;
+  font-size: 1.3rem;
+  text-align: center;
+  position: relative;
+  left: 17.3rem;
+  top: 5px;
+  color: #000;
+  background-color: #fff;
+  border: 0;
+  border-radius: 40%;
+}
+
+.txt-menu {
+  margin-top: 1rem;
+  font-family: "Recursive", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
