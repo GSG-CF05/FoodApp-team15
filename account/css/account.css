@@ -1,0 +1,134 @@
+/*Iphone X, device ratio: 375px * 812px
+Ipad Air, device ratio: 820px * 1180px
+desktop, device ratio: 768px * 1440px*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-image: url("../images/Rectangle.png");
+    background-size: cover;
+  
+    background-repeat: no-repeat;
+    height: 1000px;
+    position: relative;
+   
+  }
+  
+  header .container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header .container  i{
+    background-color: white;
+    border-radius: 50%;
+    font-size: 24px;
+    padding: 20px;
+  }
+  section
+  {
+    
+  }
+  .img01 {
+    position: absolute;
+    top: 750px;
+    left: 45%;
+  }
+  section .container {
+    width: 90%;
+    margin: auto;
+   padding-top: 75px;
+    background-color: white;
+    position: relative;
+    bottom: 195px;
+    border-radius: 20px;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+   
+  }
+  section .container h1{
+    margin-bottom: 10px;
+  }
+  section .container p{
+    margin-bottom: 7px;
+    color:#636773;
+  }
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (min-width: 375px) and (max-width: 812px) {
+    header {
+      background-size: contain;
+    }
+  
+    header .container i {
+      background-color: white;
+      border-radius: 50px;
+      font-size: 14px;
+      padding: 10px;
+    }
+    section .container {
+      
+      position: relative;
+      bottom: 730px;
+    
+    }
+    .img01 {
+      position: absolute;
+      top: 215px;
+      left: 35%;
+    }
+    
+  }
+  
+  @media (min-width: 820px) and (max-width: 1180px) {
+    header {
+      background-size: contain;
+    }
+  
+    section .container {
+      
+      position: relative;
+      bottom: 195px;
+    
+    }
+    
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024) {
+    header {
+      background-size: contain;
+    }
+  
+    section .container {
+      
+      position: relative;
+      bottom: 195px;
+    
+    }
+    
+  }
+  
