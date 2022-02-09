@@ -4,9 +4,11 @@
   padding: 0;
   font-family: "Varela Round", sans-serif;
 }
-
 body {
   background-color: #e5e5e5;
+}
+a {
+  text-decoration: none;
 }
 
 .header-container {
@@ -44,16 +46,17 @@ body {
   left: 1.3rem;
   top: 3rem;
 }
-/* SECTION REVIEW */
+
 .container-menu {
+  width: 21rem;
+  height: 16rem;
+  border-radius: 1rem;
+  margin: -3rem auto auto;
+  background-color: #e5e5e5;
   display: flex;
   flex-direction: column;
-  width: 21rem;
-  height: 17rem;
-  border-radius: 1rem;
+  align-items: center;
   padding: 1rem;
-  margin: -2.5rem auto 0 1.5rem;
-  background-color: #e5e5e5;
   z-index: 2;
 }
 
@@ -88,12 +91,13 @@ body {
 }
 
 .txt-menu {
-  margin-top: 1rem;
   font-family: "Montserrat Alternates", sans-serif;
+  margin-top: 1rem;
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 2rem;
 }
+
 .review-heart {
   display: flex;
   align-items: flex-start;
@@ -148,4 +152,92 @@ hr {
 }
 .serves {
   margin-right: 1rem;
+}
+
+/* STORY SECTION */
+
+.story-container {
+  width: 21rem;
+  height: 9rem;
+  border-radius: 1rem;
+  margin: 1px auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title-story {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 1rem 0 1rem;
+}
+
+.review-txt-story {
+  font-size: 1rem;
+}
+.read-txt-story {
+  font-size: 0.8rem;
+  color: orange;
+}
+
+.row-story-name {
+  width: 16.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.person-story {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.personal-img {
+  width: 2rem;
+  height: 2rem;
+}
+.story-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.story-txt {
+  font-size: 0.9rem;
+}
+.story-day-txt {
+  font-size: 0.6rem;
+  color: #7b8292;
+}
+#inner {
+  font-size: 0.9rem;
+  line-height: 1rem;
+  margin: 0.5rem 1.5rem 1rem 3.6rem;
+}
+.story-icon {
+  color: #b3b4ba;
+}
+
+.nav {
+  height: 4rem;
+  background-color: #fff;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.nav-icon {
+  height: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Media Query */
+@media (min-width: 375px) {
+  .header-container {
+    margin: 0 auto;
+  }
 }
