@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
@@ -16,8 +19,17 @@
         <p>Every One Can Be Chef</p>
       </header>
       <article>
-        <form id="login" onsubmit="process(event)">
-          <input id="phone" type="tel" name="phone" placeholder="phone number"/>
+        <form
+          id="login"
+          onsubmit="process(event)"
+          action="/community/community.html"
+        >
+          <input
+            id="phone"
+            type="tel"
+            name="phone"
+            placeholder="phone number"
+          />
           <input type="submit" class="btn" value="Send OTP" />
         </form>
         <div class="separator">
@@ -31,7 +43,14 @@
           <button class="google">Google</button>
         </div>
       </article>
-      <footer></footer>
+      <footer>
+        <p>by continuing, you agree to our</p>
+        <ol>
+          <li id="#">terms of Service</li>
+          <li id="#">Privacy Policy</li>
+          <li id="#">Content Policy</li>
+        </ol>
+      </footer>
     </div>
   </body>
 </html>
