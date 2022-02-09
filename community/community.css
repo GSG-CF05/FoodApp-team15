@@ -11,7 +11,6 @@ header {
   align-items: center;
   height: 70px;
   border-bottom: 1.5px solid rgb(181, 178, 178);
-  box-shadow: 0.3px 0.3px 1.2px #aaaaaa;
 }
 
 header a {
@@ -45,12 +44,17 @@ header p.continer-for-link-a {
   overflow-y: hidden;
   white-space: nowrap;
 }
+
+#my-filter-container img {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1.1%;
+}
 /* ff8527 */
 .btn-on-active {
   color: #ff8527;
   padding-left: 2%;
   margin-left: 2%;
-  border-left: 1px solid #636773a8;
 }
 
 button {
@@ -70,3 +74,135 @@ button:hover {
 button:active {
   color: black;
 }
+/********************End Style Filter**************/
+
+/********************start Style meal**************/
+div.container-for-all-meals {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+div.container-for-all-meals section {
+  margin-top: 15px;
+}
+section.meal-1 {
+  width: 43.8%;
+  height: 300px;
+}
+
+img.heart {
+  border: 2px solid rgb(255, 255, 255);
+  margin-top: -30%;
+  margin-left: 75%;
+}
+
+p.meal-name {
+  font-size: 21px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Varela Round", sans-serif;
+  text-shadow: 0.6px 0.6px 1.8px #636773c2;
+  padding-top: 7px;
+}
+
+div.reviwes-for-meal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 7px;
+  width: 130px;
+}
+
+figure.figure-for-avater-for-reviewer {
+  width: 25%;
+}
+
+p.name-for-reviewer {
+  font-size: 14px;
+  font-weight: bold;
+}
+span.number-of-reviwes {
+  font-size: 14px;
+  font-weight: 300;
+  color: #636773;
+}
+/********************End Style meal**************/
+
+/* The page was created by phone first (iphone x)*/
+
+/********************start meadia query (ipad air)**************/
+
+@media only screen and (device-width: 820px) and (device-height: 1180px) {
+  .header-community {
+    margin-left: -8%;
+  }
+
+  .continer-for-link-a a {
+    margin-left: 50px;
+  }
+  div.container-for-all-meals section {
+    width: 30%;
+    margin-left: -35px;
+  }
+
+  img.heart {
+    margin-left: 95%;
+  }
+
+  .meal-1 figure,
+  p.meal-name,
+  div.reviwes-for-meal {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  figure.figure-for-avater-for-reviewer {
+    width: 40px;
+    margin-left: 0%;
+  }
+  p.name-for-reviewer {
+    width: 80px;
+  }
+}
+/********************end meadia query (ipad air)**************/
+
+/********************start meadia query desktop **************/
+
+@media screen and (min-width: 1400px) and (device-height: 768px) {
+  .header-community {
+    margin-left: -9%;
+  }
+  .continer-for-link-a a {
+    margin-left: 50px;
+  }
+  div.container-for-all-meals section {
+    align-items: center;
+    width: 30%;
+    margin-left: -20px;
+  }
+  img.heart {
+    margin-left: -18%;
+  }
+
+  .meal-1 figure,
+  p.meal-name,
+  div.reviwes-for-meal {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  figure.figure-for-avater-for-reviewer {
+    width: 18%;
+    margin-left: 0%;
+  }
+  p.name-for-reviewer {
+    width: 82%;
+  }
+}
+/********************end meadia query desktop **************/
