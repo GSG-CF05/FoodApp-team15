@@ -2,10 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Authnitication Page</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header>
+        <img src="auth.png" alt="Authnitication header image" />
+        <h2>Mallika</h2>
+        <p>Every One Can Be Chef</p>
+      </header>
+      <article>
+        <form id="login" onsubmit="process(event)">
+          <input id="phone" type="tel" name="phone" placeholder="phone number"/>
+          <input type="submit" class="btn" value="Send OTP" />
+        </form>
+        <div class="separator">
+          <div class="line"></div>
+          <span>OR</span>
+          <div class="line"></div>
+        </div>
+        <div class="buttons">
+          <button class="apple">Continue with Apple</button>
+          <button class="facebook">FaceBook</button>
+          <button class="google">Google</button>
+        </div>
+      </article>
+      <footer></footer>
+    </div>
+  </body>
 </html>
