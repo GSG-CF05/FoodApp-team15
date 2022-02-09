@@ -4,8 +4,131 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./details.css/" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./details.css" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Recursive:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <title>FoodApp</title>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/df5446c60a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="header-logo">
+          <button class="arrow icon-properties">
+            <img
+              src="./image/chevron-circle-left.png"
+              alt="chevron-circle-left"
+            />
+          </button>
+          <button class="heart icon-properties">
+            <i class="color-icon far fa-heart"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- SECTION REVIEW -->
+      <section class="menu-details">
+        <!-- Container Menu -->
+        <div class="container-menu">
+          <!-- Container Search, text,review -->
+          <div class="menu-bar-text">
+            <span>
+              <input
+                class="plus"
+                type="search"
+                name="gsearch"
+                placeholder="Cookbox/ Menu ayam Spesial"
+              />
+              <button class="btn-plus">
+                <img src="./image/vector.png" alt="Vector" />
+              </button>
+            </span>
+            <h1 class="txt-menu">Sup Makaroni Daging Ayam Kampung</h1>
+            <div class="review-heart">
+              <button class="btn-heart-review">
+                <i class="color-icon far fa-heart"></i>
+              </button>
+              <p class="review">4.8 | 67 Reviews</p>
+            </div>
+          </div>
+          <!-- END Container Search, text,review -->
+          <div class="group">
+            <div class="min review-result">
+              <i class="color-icon far fa-clock"></i>
+              <h3>40 min</h3>
+            </div>
+            <hr />
+
+            <div class="review-result">
+              <i class="color-icon fas fa-concierge-bell"></i>
+              <h3>Easy</h3>
+            </div>
+            <hr />
+            <div class="serves review-result">
+              <i class="color-icon fas fa-utensils"></i>
+              <h3>Serves 2</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END REVIEW SECTION -->
+      <!-- STORY SECTION -->
+      <section class="section-story">
+        <div class="story-container">
+          <div class="title-story">
+            <h3 class="review-txt-story">Reviews (67)</h3>
+            <a href="../account/account.html"
+              ><h3 class="read-txt-story">READ ALL</h3></a
+            >
+          </div>
+
+          <div class="person-story">
+            <img
+              src="./image/avatar.jpg"
+              alt="Quincy Larson's profile picture"
+              class="personal-img"
+            />
+            <div class="row-story-name">
+              <div class="story-name">
+                <h3 class="story-txt">Renata Moeloek</h3>
+                <h4 class="story-day-txt">4 days ago</h4>
+              </div>
+              <i class="story-icon far fa-heart"></i>
+            </div>
+          </div>
+          <div id="inner">
+            <p>Resepnya menarik mesti dicoba nih, terima kasih bunda</p>
+          </div>
+        </div>
+      </section>
+      <!-- END STORY SECTION -->
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bavigation">
+      <nav class="nav">
+        <img class="nav-icon" src="./image/pencil.png" alt="Pencil" />
+        <img class="nav-icon" src="./image/cart.png" alt="Cart" />
+        <img
+          class="nav-icon"
+          src="./image/calendar-check.png"
+          alt="Calender Check"
+        />
+        <img class="nav-icon" src="./image/options.png" alt="Options" />
+      </nav>
+    </footer>
+  </body>
 </html>
