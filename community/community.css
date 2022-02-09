@@ -134,12 +134,7 @@ span.number-of-reviwes {
 }
 /********************End Style meal**************/
 
-/********************start meadia query mobile (iphone x)**************/
-
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-}
-
-/********************end meadia query mobile**************/
+/* The page was created by phone first (iphone x)*/
 
 /********************start meadia query (ipad air)**************/
 
