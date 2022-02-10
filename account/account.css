@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header {
+    width: 100%;
+    height: 270px;
+    background-image: url(img/background-header.jpg);
+    background-size: cover;
+  }
+  .btn-header-continar {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn-header-continar button {
+    border: none;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  section.info {
+    width: 90%;
+    height: 240px;
+    margin-top: -70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: white;
+  }
+  .avatar {
+    margin-left: 33%;
+    width: 100%;
+  }
+  .avatar img {
+    margin-top: -60px;
+    width: 35%;
+    border-radius: 50%;
+  }
+  
+  section.info p.name {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+    font-family: "Varela Round", sans-serif;
+  }
+  section.info p.info-personal {
+    font-size: 18px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #636773;
+    text-shadow: 2px 2px 5px rgb(140, 107, 107);
+    padding: 1%;
+    font-family: "Varela Round", sans-serif;
+  }
+  
+  section.info .number-followers {
+    font-size: 17px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #636773;
+    padding: 1%;
+    font-family: "Varela Round", sans-serif;
+  }
+  
+  div.btn-section1-continar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+  }
+  button.posts,
+  button.reviews {
+    width: 48%;
+    border: none;
+    border-radius: 100px;
+    background-color: #fff;
+    color: #636773;
+    font-size: 20px;
+    font-family: "Varela Round", sans-serif;
+  }
+  button.reviews {
+    background-color: #ff8527;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Varela Round", sans-serif;
+  }
+  
+  button.posts:hover {
+    background-color: #ff8527;
+    color: #fff;
+  }
+  button.posts:hover + .reviews {
+    background-color: #ffffff;
+    color: #ff8527;
+  }
+  
+  /*********************************************/
+  section.item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    padding-left: 2%;
+    border-bottom: #6367735d 2px solid;
+  }
+  section.item div {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-bottom: 1%;
+  }
+  #image-item {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 2%;
+  }
+  
+  .top-content {
+    font-size: 14px;
+    color: #636773;
+    padding-top: 2%;
+    font-family: "Varela Round", sans-serif;
+  }
+  .button-for-item {
+    width: 25%;
+  }
+  .button-for-item button {
+    background: none;
+    border: none;
+  }
+  
+  .bottom-content {
+    font-size: 21px;
+    padding-left: 3%;
+    text-shadow: 2px 2px 5px rgb(140, 107, 107);
+    font-family: "Varela Round", sans-serif;
+  }
+  
+  @media only screen and (device-width: 820px) and (device-height: 1180px) {
+    .btn-header-continar {
+      width: 70%;
+      padding-top: 5%;
+    }
+    .btn-header-continar button {
+      width: 70px;
+      height: 70px;
+      border-radius: 30px;
+      background-color: white;
+      border-radius: 50%;
+    }
+  
+    section.info {
+      width: 70%;
+      height: 360px;
+    }
+    .button-for-item {
+      width: 15%;
+    }
+    section.item {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      border-bottom: #6367735d 2px solid;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) and (device-height: 768px) {
+    
+      .btn-header-continar {
+          width: 60%;
+          padding-top: 5%;
+        }
+        .btn-header-continar button {
+          width: 85px;
+          height: 85px;
+          border-radius: 30px;
+          background-color: white;
+          border-radius: 50%;
+        }
+    
+    
+      section.info {
+      width: 35%;
+      height: 350px;
+    }
+  
+    .button-for-item {
+      width: 10%;
+    }
+    section.item {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      border-bottom: #6367735d 2px solid;
+    }
+  }
+  
